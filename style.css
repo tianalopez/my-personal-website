@@ -1,4 +1,42 @@
 
-body {
-  background: white;
+.top-header {
+  width: 100%;
+  background-image: url("/images/mountain.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.top-header + div.header {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  color: darkslategrey;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.top-header div.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.top-header img.logo {
+  width: 100px;
+  cursor:  pointer;
+  padding: 2em;
+}
+
+.top-header nav {
+  flex: 1;
+  text-align: right;
+}
+
+.top-header nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 50px;
 }
