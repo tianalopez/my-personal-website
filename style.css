@@ -1,4 +1,8 @@
 
+body {
+  font-family: 'Roboto Condensed', 'Arial Narrow';
+}
+
 .top-header {
   width: 100%;
   background-image: url("/images/mountain.jpg");
@@ -25,7 +29,7 @@
 }
 
 .top-header img.logo {
-  width: 100px;
+  width: 80px;
   cursor:  pointer;
   padding: 2em;
 }
@@ -35,8 +39,47 @@
   text-align: right;
 }
 
+
 .top-header nav ul li {
   list-style: none;
   display: inline-block;
-  padding: 50px;
+  padding: 40px;
+  font-size: 20px;
+}
+
+.top-header nav ul li a {
+  color: black;
+}
+.top-header nav ul li a:link {
+  text-decoration: none;
+}
+.top-header nav ul li a:visited {
+  text-decoration: none;
+}
+.top-header nav ul li a:hover {
+  text-decoration:underline;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  align: center;
+  margin: 150px 0;
+}
+.col-1 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 50px;
+}
+.col-1 h2 {
+  font-size: 50px;
+  margin: auto;
+}
+.col-1 h3 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+.col-1 p {
+  font-size: 15px;
+  margin: 10px 0;
 }
