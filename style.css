@@ -75,11 +75,11 @@ body {
   position: relative;
   margin-left: 50px;
 }
-.col-1 h2 {
+.col-1 h1 {
   font-size: 50px;
   margin: auto;
 }
-.col-1 h3 {
+.col-1 h2 {
   font-size: 25px;
   margin: 10px 0;
 }
@@ -146,15 +146,15 @@ body {
 }
 
 .col-2 .girl {
-  width: 60%;
-  transform: translate(184px, 5px);
+  width: 80%;
+  transform: translate(90px, 0px);
+  right: 0;
 }
 
 .box {
   position: absolute;
   right: 0;
-  top: 0;
   border: 6px solid rgb(162, 197, 251);
   height: 100%;
-  width: 60%;
+  width: 80%;
 }
