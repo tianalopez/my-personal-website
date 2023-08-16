@@ -5,3 +5,7 @@ function mOver(object) {
 function mOut(object) {
   object.innerHTML = "Learn More...";
 }
+
+function onClick() {
+  alert("Clicked Button");
+}

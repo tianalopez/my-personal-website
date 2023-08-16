@@ -1,13 +1,15 @@
 
 body {
   font-family: 'Roboto Condensed', 'Arial Narrow';
+  background-color: whitesmoke;
 }
 
 .top-header {
   width: 100%;
-  background-image: url("/images/mountain2.jpg");
+  background-image: url("/images/mountain3.png");
   background-size: cover;
   background-position: center;
+  height: 150px;
 }
 
 
@@ -26,6 +28,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
+  height: 150px;
 }
 
 .top-header img.logo {
@@ -60,6 +63,7 @@ body {
   text-decoration:underline;
 }
 
+/* Middle Content */
 .left {
   display: flex;
   justify-content: space-between;
@@ -86,7 +90,7 @@ body {
 
   .button-1 {
     background-color: transparent;
-    border: 1px solid darksalmon;
+    border: 1px solid rgb(14, 10, 80);
     box-sizing: border-box;
     color: black;
     font-family: "Roboto Condensed", sans-serif;
@@ -112,7 +116,7 @@ body {
   }
 
   .button-1:before {
-    background-color: rgb(251, 187, 162);
+    background-color: rgb(162, 197, 251);
     content: "";
     height: calc(100% + 3px);
     position: absolute;
@@ -124,7 +128,7 @@ body {
   }
 
   .button-1:hover:before {
-    background-color: rgb(242, 162, 153);
+    background-color: rgb(127, 161, 239);
   }
 
   @media (min-width: 768px) {
@@ -132,3 +136,25 @@ body {
       padding: 16px 32px;
     }
   }
+
+.col-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  right: 0;
+  margin-right: 50px;
+}
+
+.col-2 .girl {
+  width: 60%;
+  transform: translate(184px, 5px);
+}
+
+.box {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 6px solid rgb(162, 197, 251);
+  height: 100%;
+  width: 60%;
+}
